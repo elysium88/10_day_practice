@@ -12,7 +12,7 @@ public:
 
     int getx() { return x; }
 
-    void showx() { cout << x << endl; }
+    void showx()  { cout << x << endl; }
 };
 
 //私有继承

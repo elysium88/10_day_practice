@@ -11,11 +11,11 @@ class Point {
 public:
     Point(int x = 0, int y = 0) : X(x), Y(y) {}
 
-    int GetX() {
+    int GetX() const{
         return X;
     }
 
-    int GetY() {
+    int GetY() const{
         return Y;
     }
 

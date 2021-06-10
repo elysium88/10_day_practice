@@ -17,7 +17,7 @@ public:
         ss = s;
     }
 
-    void showTime() {
+    void showTime() const{
         cout << "hour:" << hh << "mm:" << mm << "hh:" << hh << endl;
     }
 

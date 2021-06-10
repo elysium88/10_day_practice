@@ -27,7 +27,7 @@ public:
         }
     };
 
-    void showTime() {
+    void showTime() const{
         cout << "current time is " << hour << ":" << minute << ":" << second << endl;
     };
 private:

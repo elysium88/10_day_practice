@@ -19,7 +19,7 @@ class A {
     friend class B;
 
 public:
-    void Display() {
+    void Display() const{
         cout << x << endl;
     }
 
